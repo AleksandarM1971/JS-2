@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Racunanje</title>
+</head>
+<body>
+    <script>
+    let brojA = prompt("Molimo unesite prvi broj A:");
+    let operacija = prompt("Molimo unesite racunsku operaciju:");
+    let brojB = prompt("Molimo unesite drugi broj B:");
+    if (operacija == "+") {
+    var rezultat = parseInt(brojA) + parseInt(brojB);
+    alert("Rezultat je: " + rezultat);
+    } else if (operacija == "-") {
+    var rezultat = parseInt(brojA) - parseInt(brojB);
+    alert("Rezultat je: " + rezultat);  
+    } else if (operacija == "*") {
+    var rezultat = parseInt(brojA) * parseInt(brojB);
+    alert("Rezultat je: " + rezultat);
+    } else {
+    var rezultat = parseInt(brojA) / parseInt(brojB);
+    alert("Rezultat je: " + rezultat);
+    }
+   
+    </script>
+</body>
+</html>
